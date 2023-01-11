@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.45048958, g: 0.5004908, b: 0.57514834, a: 1}
+  m_IndirectSpecularColor: {r: 0.45049006, g: 0.50049096, b: 0.5751498, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 5bcb87fd6abf4a14ebd0bedf599b0dfe, type: 2}
 --- !u!1001 &9254479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -177,6 +177,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3ceba5c5cda805348b332f2d57b2a80b, type: 3}
       propertyPath: m_Name
       value: roadCornerLarger (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3ceba5c5cda805348b332f2d57b2a80b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ceba5c5cda805348b332f2d57b2a80b, type: 3}
@@ -296,6 +300,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c0912bafec9ef1d4dae9731e1f56ba84, type: 3}
       propertyPath: m_Name
       value: roadStart
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c0912bafec9ef1d4dae9731e1f56ba84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0912bafec9ef1d4dae9731e1f56ba84, type: 3}
@@ -665,6 +673,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: roadRampLongWall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8a0134a006a190f4d9c7aed161e010ab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8a0134a006a190f4d9c7aed161e010ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a0134a006a190f4d9c7aed161e010ab, type: 3}
 --- !u!1001 &149608175
@@ -840,6 +856,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3ceba5c5cda805348b332f2d57b2a80b, type: 3}
       propertyPath: m_Name
       value: roadCornerLarger (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3ceba5c5cda805348b332f2d57b2a80b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ceba5c5cda805348b332f2d57b2a80b, type: 3}
@@ -1116,6 +1136,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: roadStraightLongBump (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b7916079e248264428c0e218c2133303, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7916079e248264428c0e218c2133303, type: 3}
 --- !u!1 &340331924 stripped
@@ -1205,6 +1229,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: roadStraightLongBump (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b7916079e248264428c0e218c2133303, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7916079e248264428c0e218c2133303, type: 3}
 --- !u!1001 &354007182
@@ -1268,6 +1296,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7de559e6e4ccd7146bb7f7019aac9f1c, type: 3}
   m_PrefabInstance: {fileID: 1349703857}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &357565823 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6670767525077535227, guid: 91fcddc655e9624419b9bc751fde4d18, type: 3}
+  m_PrefabInstance: {fileID: 2139311186}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &370509322 stripped
 Transform:
@@ -1442,6 +1475,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3ceba5c5cda805348b332f2d57b2a80b, type: 3}
       propertyPath: m_Name
       value: roadCornerLarger (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3ceba5c5cda805348b332f2d57b2a80b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ceba5c5cda805348b332f2d57b2a80b, type: 3}
@@ -1744,6 +1781,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: roadStraight (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d5a8a16028ace0d4592e21fda2ec3596, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5a8a16028ace0d4592e21fda2ec3596, type: 3}
 --- !u!1001 &589394445
@@ -1800,6 +1841,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3ceba5c5cda805348b332f2d57b2a80b, type: 3}
       propertyPath: m_Name
       value: roadCornerLarger (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3ceba5c5cda805348b332f2d57b2a80b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ceba5c5cda805348b332f2d57b2a80b, type: 3}
@@ -1976,6 +2021,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 26e6f34e14c160a45a1b906708841061, type: 3}
       propertyPath: m_Name
       value: roadStraightSkew (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 26e6f34e14c160a45a1b906708841061, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26e6f34e14c160a45a1b906708841061, type: 3}
@@ -3814,6 +3863,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: roadCornerSmall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 80fd09ac15970594bb8932ab74716986, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80fd09ac15970594bb8932ab74716986, type: 3}
 --- !u!1001 &1461512812
@@ -4229,6 +4282,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: roadStartPositions
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: adcba0de54532c14eb5c5f7c66173cf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adcba0de54532c14eb5c5f7c66173cf8, type: 3}
 --- !u!4 &1582518277 stripped
@@ -4353,6 +4410,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: roadStraight (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d5a8a16028ace0d4592e21fda2ec3596, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5a8a16028ace0d4592e21fda2ec3596, type: 3}
 --- !u!1001 &1650233015
@@ -4409,6 +4470,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d5a8a16028ace0d4592e21fda2ec3596, type: 3}
       propertyPath: m_Name
       value: roadStraight (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d5a8a16028ace0d4592e21fda2ec3596, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5a8a16028ace0d4592e21fda2ec3596, type: 3}
@@ -4615,6 +4680,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: roadStraight (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d5a8a16028ace0d4592e21fda2ec3596, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5a8a16028ace0d4592e21fda2ec3596, type: 3}
 --- !u!4 &1707245627 stripped
@@ -4622,6 +4691,142 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7de559e6e4ccd7146bb7f7019aac9f1c, type: 3}
   m_PrefabInstance: {fileID: 1321729493}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1709786974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1709786980}
+  - component: {fileID: 1709786979}
+  - component: {fileID: 1709786978}
+  - component: {fileID: 1709786977}
+  - component: {fileID: 1709786976}
+  - component: {fileID: 1709786975}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!195 &1709786975
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709786974}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: 0.5
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &1709786976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709786974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83aff10d1d630f1408d6f485ba26b20e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 357565823}
+  DrawGizmo: 0
+  GizmoColor: {r: 0, g: 0, b: 0, a: 0}
+  radius: 0.99
+--- !u!65 &1709786977
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709786974}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1709786978
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709786974}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1709786979
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709786974}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1709786980
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709786974}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.43, y: 0.66, z: 3.04}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1717236818
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5225,6 +5430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: roadCornerSmall (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 80fd09ac15970594bb8932ab74716986, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80fd09ac15970594bb8932ab74716986, type: 3}
 --- !u!4 &1829811192 stripped
@@ -5287,6 +5496,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: roadRampLongWall
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8a0134a006a190f4d9c7aed161e010ab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8a0134a006a190f4d9c7aed161e010ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a0134a006a190f4d9c7aed161e010ab, type: 3}
 --- !u!1001 &1865032006
@@ -5344,6 +5561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: roadCornerLarger (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3ceba5c5cda805348b332f2d57b2a80b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ceba5c5cda805348b332f2d57b2a80b, type: 3}
 --- !u!1001 &1869997152
@@ -5400,6 +5621,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 80fd09ac15970594bb8932ab74716986, type: 3}
       propertyPath: m_Name
       value: roadCornerSmall (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 80fd09ac15970594bb8932ab74716986, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80fd09ac15970594bb8932ab74716986, type: 3}
@@ -5561,6 +5786,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b7916079e248264428c0e218c2133303, type: 3}
       propertyPath: m_Name
       value: roadStraightLongBump (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b7916079e248264428c0e218c2133303, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7916079e248264428c0e218c2133303, type: 3}
@@ -5756,6 +5985,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 80fd09ac15970594bb8932ab74716986, type: 3}
       propertyPath: m_Name
       value: roadCornerSmall (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 80fd09ac15970594bb8932ab74716986, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80fd09ac15970594bb8932ab74716986, type: 3}
@@ -6162,6 +6395,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: roadCornerLarger (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3ceba5c5cda805348b332f2d57b2a80b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ceba5c5cda805348b332f2d57b2a80b, type: 3}
 --- !u!1001 &2123138670
@@ -6231,6 +6468,10 @@ PrefabInstance:
     - target: {fileID: 6670767525077535226, guid: 91fcddc655e9624419b9bc751fde4d18, type: 3}
       propertyPath: m_Name
       value: PlayerCar
+      objectReference: {fileID: 0}
+    - target: {fileID: 6670767525077535226, guid: 91fcddc655e9624419b9bc751fde4d18, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6670767525077535227, guid: 91fcddc655e9624419b9bc751fde4d18, type: 3}
       propertyPath: m_RootOrder
